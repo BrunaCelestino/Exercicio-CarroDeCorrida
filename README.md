@@ -1,4 +1,4 @@
-# <div aligm="center"> Exercício: Sistema de corrida. </div>
+# <div align="center"> Exercício: Sistema de corrida. </div>
 
 ## Enunciado
 
