@@ -82,6 +82,9 @@ Também é possível:
 - Ligar o carro, desde que o mesmo já não esteja ligado;
 - Desligar o carro, desde que o mesmo esteja ligado, parado ou com velocidade atual equivalente a 0 KM;
 - Parar o carro, desde que a velocidade atual seja 0 KM, não esteja desligado e não esteja parado.
+
+A classe Corrida é a classe principal, onde o método main está e por onde é possível rodar o sistema. criando o Piloto, o Carro e chamando as funcionalidades.
+
 </div>
 
 <div align="end"> 
