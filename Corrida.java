@@ -33,7 +33,6 @@ public class Corrida {
         carro.acelerar();
         carro.frear();
         carro.parar();
-        System.out.println(carro);
         carro.ligar();
         carro.ligar();
         carro.frear();
