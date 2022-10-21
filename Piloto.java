@@ -1,25 +1,27 @@
 public class Piloto {
        public String nome;
       public  Integer idade;
-      public  Enum Sexo;
+
+      public   Sexo genero;
       public  String equipe;
 
     public Piloto() {
     }
 
-    public Piloto(String nome, Integer idade, Enum sexo, String equipe) {
+
+    public Piloto(String nome, Integer idade, Sexo genero, String equipe) {
         this.nome = nome;
         this.idade = idade;
-        Sexo = sexo;
+        this.genero = genero;
         this.equipe = equipe;
     }
 
-    public Enum getSexo() {
-        return Sexo;
+    public Sexo getGenero() {
+        return genero;
     }
 
-    public void setSexo(Enum sexo) {
-        Sexo = sexo;
+    public void setGenero(Sexo genero) {
+        this.genero = genero;
     }
 
     public String getNome() {
@@ -53,7 +55,7 @@ public class Piloto {
         return "Piloto: " +
                 "nome: " + nome +
                 ", idade: " + idade +
-                ", gênero: " + Sexo +
+                ", gênero: " + genero +
                 ", equipe: " + equipe;
     }
 
