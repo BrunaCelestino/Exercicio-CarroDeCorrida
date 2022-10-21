@@ -1,5 +1,5 @@
 # <div align="center"> Exercício: Sistema de corrida. </div>
-[Resolução](#resoluo)
+[Resolução](#resposta)
 
 
 ## Enunciado
@@ -53,4 +53,4 @@ A entrega deve ser de preferência o link do git hub do projeto, porém caso ten
 </div>
 
 
-## Resolução
+## Resposta
