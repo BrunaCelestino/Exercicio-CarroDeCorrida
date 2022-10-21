@@ -4,6 +4,9 @@ public class Piloto {
       public  Enum Sexo;
       public  String equipe;
 
+    public Piloto() {
+    }
+
     public Piloto(String nome, Integer idade, Enum sexo, String equipe) {
         this.nome = nome;
         this.idade = idade;

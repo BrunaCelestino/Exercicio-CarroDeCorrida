@@ -13,6 +13,10 @@ public class CarroCorrida {
         this.ligado = false;
     }
 
+    public CarroCorrida() {
+
+    }
+
     public Integer getNumeroCarro() {
         return numeroCarro;
     }
@@ -25,14 +29,7 @@ public class CarroCorrida {
         return piloto;
     }
 
-    public void setPiloto(Piloto piloto) {
-        if(this.velocidadeAtual > 0) {
-            System.out.println("Para trocar de piloto, o carro precisa estar parado!");
-        } else {
-            this.piloto = piloto;
-        }
 
-    }
 
     public float getVelocidadeMaxima() {
         return velocidadeMaxima;
@@ -46,6 +43,16 @@ public class CarroCorrida {
 
         return velocidadeAtual;
 
+
+    }
+
+
+    public void setPiloto(Piloto piloto) {
+        if(this.velocidadeAtual > 0) {
+            System.out.println("Para trocar de piloto, o carro precisa estar parado!");
+        } else {
+            this.piloto = piloto;
+        }
 
     }
 
