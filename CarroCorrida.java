@@ -1,7 +1,7 @@
 public class CarroCorrida {
-    public Integer numeroCarro;
-    public Piloto piloto;
-    public float velocidadeMaxima;
+    private Integer numeroCarro;
+    private Piloto piloto;
+    private float velocidadeMaxima;
     private float velocidadeAtual;
     private boolean ligado;
 

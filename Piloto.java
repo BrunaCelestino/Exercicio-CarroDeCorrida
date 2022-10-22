@@ -1,9 +1,8 @@
 public class Piloto {
-       public String nome;
-      public  Integer idade;
-
-      public   Sexo genero;
-      public  String equipe;
+       private String nome;
+      private   Integer idade;
+      private    Sexo genero;
+      private   String equipe;
 
     public Piloto() {
     }
